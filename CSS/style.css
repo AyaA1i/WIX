@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'varela round' , sans-serif;
+}
+/* -------------------nav------------------- */
+.header{
+    overflow: auto;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.nav-elements{
+    float: left;
+    margin-top: 50px;
+}
+.nav-elements ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 13px;
+    margin: 15px;
+}
+.nav-elements ul li{
+    float: left;
+    list-style: none;
+}
+.nav-elements ul{
+    overflow: auto;
+}
+.nav-icons{
+    float: left;
+    margin-top: 50px;
+}
+.nav-icons i{
+    font-size: 30px;
+}
+.nav-icons a{
+    text-decoration: none;
+    color: black;
+}
+.cart-items{
+    background-color: brown;
+    border-radius: 50%;
+    padding: 4px;
+    color: white;
+}
+/* -----------part1-------------- */
+.part1-container{
+    width: 80%;
+    margin: auto;
+}
+.part1{
+    height: 550px;
+    background-image: url("../Images/background.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.part1 .txt1{
+    text-align: center;
+    padding-top: 300px;
+    margin-left: 600px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.part1 .txt2{
+    text-align: center;
+    margin-left: 600px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.part1 .btn{
+    text-align: center;
+    margin-left: 610px;
+    text-align: left;
+}
+.part1 .btn button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color:#5e5e4a ;
+    border: none;
+    outline: none;
+}
+/* ----------part2-------------- */
+
+.part2-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.part2 .head .txt{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.part2 .head .line{
+    background-color: brown;
+    height: 2px;
+    margin: auto;
+    width: 100px;
+    transition: 0.6s;
+    margin-bottom: 30px;
+}
+.part2 .head:hover .line{
+    width: 150px;
+   
+}
+.part2 .elements{
+    width: 80%;
+    height: 420px;
+    margin: auto;
+    overflow: auto;
+}
+.part2 .elements .element{
+    float: left;
+    margin-right: 2%;
+    width: 23%;
+}
+.part2 .elements .last{
+    margin-right: 0;
+}
+.part2 .elements .element img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.part2 .elements .element .txt1{
+    color: #5e5e4a;
+
+}
+.part2 .elements .element .txt2{
+    font-weight: bold;
+    font-size: 16px;
+    float:left;
+}
+.part2 .elements .element .arrow{
+    float:right;
+    display: none;
+    background-color: brown;
+    color:white;
+}
+.part2 .elements .element .arrow i{
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.part2 .elements .element .Allarrow{
+    overflow: auto;
+}
+.part2 .elements .element:hover .arrow{
+    display: block;
+}
+
+/* ----------part3-------------- */
+.part3{
+    width: 80%;
+    margin: auto;
+}
+.part3 .elements{
+    overflow: auto;
+}
+.part3 .elements .element{
+    float:left;
+    width: 25%;
+}
+.part3 .elements .first{
+    width: 40%;
+}
